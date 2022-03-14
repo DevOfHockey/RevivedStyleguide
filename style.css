@@ -1,0 +1,73 @@
+/* NAVBAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+    /* keep it fixed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #AEA49E;
+  }
+
+/* PAGE 1: Home Logos */
+h1 {
+    font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 82px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    margin-top: 75px;
+        /* font-family: "Telefon Black", Sans-Serif;
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 400;
+    font-weight: bold; */
+}
+
+body {
+    background-color: #e8e3dc;
+    float: center;
+    text-align: left;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.61111em;
+    color: #393B1A;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* PAGE 3: Figma Mockup */
+#content {
+    width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
