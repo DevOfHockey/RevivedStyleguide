@@ -63,6 +63,18 @@ p {
     font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+/* PAGE 2: Color Palette */
+dl {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
 /* PAGE 3: Figma Mockup */
 #content {
     width: 800px;
